@@ -1,0 +1,67 @@
+﻿body {
+    background-color: #B5BCF0;
+}
+hr {
+    background-color: black;
+    height: 2px;
+}
+@font-face {
+    font-family: Suez One;
+  src: url(SuezOne.ttf);
+}
+#menuButtons {
+    float: right;
+    padding: 5px;
+	font-weight: bold;
+}
+#motto {
+    float: right;
+	font-family: Suez One;
+}
+#photo {
+	float: left;
+	padding: 5px;
+}
+/* #contact {
+	border: solid;
+	padding: 5px;
+} */
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 20px;
+}
+h3 {
+  font-size: 15px;
+}
+
+.menuButton {
+    font-size: 20px;
+    border: double;
+    background-color: lightslategray;
+    text-decoration: none;
+    padding: 15px 32px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    display: inline-block;
+}
+.menuButton:hover {
+    background-color: #B5BCF0;
+}
+.downloadButton {
+    font-size: 20px;
+    border: solid;
+    background-color: #00b33c;
+    text-decoration: none;
+    padding: 15px 32px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    display: inline-block;
+	border-radius: 25px;
+}
+.downloadButton:hover {
+	color: white;
+    background-color: #000033;
+}
