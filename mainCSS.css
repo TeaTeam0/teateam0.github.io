@@ -1,4 +1,4 @@
-﻿body {
+body {
     background-color: #B5BCF0;
 }
 hr {
@@ -15,6 +15,7 @@ hr {
 	font-weight: bold;
 }
 #motto {
+	text-align: center;
 	font-family: Suez One;
 }
 #photo {
