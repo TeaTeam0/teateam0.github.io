@@ -9,11 +9,6 @@ hr {
     font-family: Suez One;
   src: url(SuezOne.ttf);
 }
-#menuButtons {
-    float: right;
-    padding: 5px;
-	font-weight: bold;
-}
 #motto {
 	text-align: center;
 	font-family: Suez One;
@@ -35,20 +30,6 @@ h2 {
 }
 h3 {
   font-size: 15px;
-}
-
-.menuButton {
-    font-size: 20px;
-    border: double;
-    background-color: lightslategray;
-    text-decoration: none;
-    padding: 15px 32px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    display: inline-block;
-}
-.menuButton:hover {
-    background-color: #B5BCF0;
 }
 .downloadButton {
     font-size: 20px;
