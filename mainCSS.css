@@ -1,0 +1,128 @@
+﻿body {
+    background-color: #B5BCF0;
+}
+hr {
+    background-color: black;
+    height: 2px;
+}
+@font-face {
+    font-family: Suez One;
+    src: url(fonts/SuezOne.ttf);
+}
+@font-face {
+    font-family: NotoSans;
+    src: url(fonts/NotoSans-Black.ttf);
+}
+@font-face {
+    font-family: Hind;
+    src: url(fonts/Hind-Regular.ttf);
+}
+@font-face {
+    font-family: Hind_bold;
+    src: url(fonts/Hind-SemiBold.ttf);
+}
+@font-face {
+    font-family: Lobster;
+    src: url(fonts/Lobster-Regular.ttf);
+}
+#motto {
+	text-align: center;
+	font-family: Suez One;
+}
+#photo {
+	float: left;
+	padding: 5px;
+}
+h1 {
+  font-size: 40px;
+  font-family: Hind_bold;
+}
+h2 {
+  font-size: 25px;
+}
+h3 {
+  font-size: 20px;
+}
+.downloadButton {
+    font-size: 20px;
+    border: solid;
+    background-color: #00b33c;
+    text-decoration: none;
+    padding: 15px 32px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    display: inline-block;
+	border-radius: 25px;
+}
+.languageButton {
+    font-size: 20px;
+    border: solid;
+    background-color: orange;
+    text-decoration: none;
+    padding: 10px 27px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 25px;
+}
+.languageButton:hover {
+    color: white;
+    background-color: violet;
+}
+.downloadButton:hover {
+	color: white;
+    background-color: #000033;
+}
+.photos {
+    background-color: #B5BCF0;
+}
+.photo {
+    text-align: center;
+    background-color: #B5BCF0;
+}
+.contact {
+    margin: auto;
+}
+.contact_info {
+    border-style: double;
+    border-width: 7px;
+    padding: 10px 10px;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+a:link {
+    color: #1f0000;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+}
+.change_language {
+    text-align: right;
+}
+.logo {
+    float: left;
+}
+footer {
+    text-align: center;
+}
+#description {
+    text-align: center;
+	font-family: NotoSans;
+}
+#history {
+    font-family: Hind;
+}
+#project_description
+{
+    font-family: Hind;
+}
